@@ -51,5 +51,3 @@ steps:
 - template: storage_tag_containers02.yml@biswajit
 ```
 
-
-https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops
