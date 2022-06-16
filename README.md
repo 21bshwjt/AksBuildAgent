@@ -23,10 +23,31 @@ az container create --resource-group aksbuildagent --name <ACR_Name> --image <Im
 
 ### How to add agent with the pipeline ?
 ```yaml
+trigger:
+- main
+
 pool:
   name: akspool
   demand:
    - agent.name -equals DockerAgent1
+
+variables:
+- name: ResourceGroup
+  value: arm_storageacct9
+- name: ResourceGroup01
+  value: arm_storageacct8
+- name: AzureDataCenter
+  value: 'Central US'
+
+resources:
+  repositories:
+    - repository: biswajit
+      type: git
+      name: 'Simple Server/Buildtemplates'
+
+steps:
+- template: storage_tag_containers01.yml@biswajit
+- template: storage_tag_containers02.yml@biswajit
 ```
 
 
