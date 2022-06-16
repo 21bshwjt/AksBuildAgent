@@ -1,7 +1,7 @@
 # AksBuildAgent
 ### AKS Self-Hosted Windows Agent
 
-- Set up Dockerfile
+- Create Dockerfile.
 - Create an ACR.
 ```powershell
 az group create --name aksbuildagent --location westus2
