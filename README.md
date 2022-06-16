@@ -22,7 +22,7 @@ az container create --resource-group aksbuildagent --name <ACR_Name> --image <Im
 - Add agent pool with the pipeline.
 
 ### How to add agent with the pipeline ?
-Check the 'pool' section.
+Please check the 'pool:' section.
 ```yaml
 trigger:
 - main
