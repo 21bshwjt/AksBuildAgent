@@ -19,7 +19,7 @@ az acr build --registry <Your_ACR_Name> -t buildagent:v1.0 --platform windows .
 az container create --resource-group aksbuildagent --name <ACR_Name> --image <Image_URL> --restart-policy OnFailure --registry-login-server <ACR_Login_Server> --registry-username <ACR_UserName> --registry-password <Password> --os-type Windows --environment-variables 'AZP_URL=<AZDO_URL>' 'AZP_TOKEN=<PAT>' 'AZP_POOL=<Pool_Name>' 'AZP_AGENT_NAME=<Agent_Name>' 
 ```
 - After some minutes the server will become available for the pipelines.
-<img src="https://github.com/21bshwjt/AksBuildAgent/blob/f93b6b571c7a3cc5faa8137db9a8986e7cc7424d/akspool.png?raw=true" width="300" height="70">
+<img src="https://github.com/21bshwjt/AksBuildAgent/blob/f93b6b571c7a3cc5faa8137db9a8986e7cc7424d/akspool.png?raw=true" width="300" height="150">
 - Add agent pool with the pipeline.
 
 ### How to add agent with the pipeline ?
