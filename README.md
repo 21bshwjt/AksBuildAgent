@@ -11,7 +11,6 @@ az acr create --resource-group aksbuildagent --name <Your_ACR_Name> --sku Basic
 ```powershell
 az acr build --registry <Your_ACR_Name> -t buildagent:v1.0 --platform windows .
 ```
-- Create a Personal Access Token into AzDo.
 - [Create a Personal Access Token into AzDo.](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-windows?view=azure-devops#authenticate-with-a-personal-access-token-pat:~:text=Authenticate%20with%20a%20personal%20access%20token%20(PAT))
 - Create an Agent Pool in AzDo.
 - Enable Admin User in ACR.
