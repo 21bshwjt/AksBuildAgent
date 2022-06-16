@@ -38,9 +38,9 @@ pool:
 
 variables:
 - name: ResourceGroup
-  value: arm_storageacct9
+  value: arm_storageacct01
 - name: ResourceGroup01
-  value: arm_storageacct8
+  value: arm_storageacct02
 - name: AzureDataCenter
   value: 'Central US'
 
