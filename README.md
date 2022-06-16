@@ -8,6 +8,9 @@ az group create --name aksbuildagent --location westus2
 az acr create --resource-group aksbuildagent --name <Your_ACR_Name> --sku Basic
 ```
 - Build the Dockerfile in the Cloud with a Task.
+```powershell
+az acr build --registry <Your_ACR_Name> -t buildagent:v1.0 --platform windows .
+```
 - Create a Personal Access Token into AzDo.
 - Create an Agent Pool in AzDo.
 - Enable Admin User in ACR.
