@@ -1,7 +1,7 @@
 # AksBuildAgent
 ### AKS Self-Hosted Windows Agent
 
-- Create Dockerfile.
+- Create Dockerfile & start.ps1 (Code given into the repo or you can clone & use the same files).
 - Create an ACR.
 ```powershell
 az group create --name aksbuildagent --location westus2
