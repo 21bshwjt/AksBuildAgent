@@ -4,7 +4,9 @@
 - Create Dockerfile & start.ps1 (Code given into the repo or you can clone & use the same files).
 - Create an ACR.
 ```powershell
+# Create a Resource Group
 az group create --name aksbuildagent --location westus2
+# Create Azure Container Registry
 az acr create --resource-group aksbuildagent --name <Your_ACR_Name> --sku Basic
 ```
 - Build the Dockerfile in the Cloud with a Task.
