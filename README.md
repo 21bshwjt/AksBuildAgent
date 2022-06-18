@@ -17,7 +17,7 @@ az acr build --registry <Your_ACR_Name> -t buildagent:v1.0 --platform windows .
 - [Create a Personal Access Token into AzDo.](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-windows?view=azure-devops#authenticate-with-a-personal-access-token-pat:~:text=Authenticate%20with%20a%20personal%20access%20token%20(PAT))
 - [Create an Agent Pool in AzDo.](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/pools-queues?view=azure-devops&tabs=yaml%2Cbrowser)
 - Enable Admin User in ACR.
-<img src="https://github.com/21bshwjt/AksBuildAgent/blob/07125bd341ffb1e9b042ad389f39a50449f2c21d/ACR.png?raw=true" width="400" height="250">
+<img src="https://github.com/21bshwjt/AksBuildAgent/blob/07125bd341ffb1e9b042ad389f39a50449f2c21d/ACR.png?raw=true" width="500" height="325">
 - Create an Azure Container Instance.
 ```powershell
 az container create --resource-group aksbuildagent --name <ACR_Name> --image <Image_URL> --restart-policy OnFailure --registry-login-server <ACR_Login_Server> --registry-username <ACR_UserName> --registry-password <Password> --os-type Windows --environment-variables 'AZP_URL=<AZDO_URL>' 'AZP_TOKEN=<PAT>' 'AZP_POOL=<Pool_Name>' 'AZP_AGENT_NAME=<Agent_Name>' 
