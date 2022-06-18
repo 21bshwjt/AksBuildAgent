@@ -3,7 +3,9 @@
 ### AKS Self-Hosted Windows Agent
 
 - Create Dockerfile & start.ps1 (Code given into the repo or you can clone & use the same files).
-You can refer [MSFT KB](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops) for the same.
+ 
+You can refer (Optional) [MSFT KB](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops) for the same.
+
 - Create an ACR.
 ```powershell
 # Create a Resource Group
