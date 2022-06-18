@@ -28,6 +28,7 @@ az container create --resource-group aksbuildagent --name <ACR_Name> --image <Im
 ```
 - After few minutes agent will become available for the pipelines.
 <img src="https://github.com/21bshwjt/AksBuildAgent/blob/f93b6b571c7a3cc5faa8137db9a8986e7cc7424d/akspool.png?raw=true" width="400" height="250">
+
 - Add agent pool with the pipeline.
 
 ### How to add agent with the pipeline ?
