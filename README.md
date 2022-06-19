@@ -30,7 +30,7 @@ Go to your ACR --> Access Keys --> Admin user (Enable that option; pls refer the
 az container create --resource-group aksbuildagent --name <ACR_Name> --image <Image_URL> --restart-policy OnFailure --registry-login-server <ACR_Login_Server> --registry-username <ACR_UserName> --registry-password <Password> --os-type Windows --environment-variables 'AZP_URL=<AZDO_URL>' 'AZP_TOKEN=<PAT>' 'AZP_POOL=<Pool_Name>' 'AZP_AGENT_NAME=<Agent_Name>' 
 ```
 - After few minutes agent will become available for the pipelines.
-<img src="https://github.com/21bshwjt/AksBuildAgent/blob/f93b6b571c7a3cc5faa8137db9a8986e7cc7424d/akspool.png?raw=true" width="400" height="250">
+<img src="https://github.com/21bshwjt/AksBuildAgent/blob/d9eb0712f7dbee6567a0c8e72d87f9a327c51dae/images/akspool.png?raw=true" width="400" height="250">
 
 - Add agent pool with the pipeline.
 
