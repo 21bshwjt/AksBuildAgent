@@ -2,8 +2,19 @@
 
 ### AKS Self-Hosted Windows Agent
 
-- Create Dockerfile & start.ps1 (Code given into the repo or you can clone & use the same files).
- 
+- Clone the Repo & login in Azure
+
+```powershell
+# Clone the repo
+git clone https://github.com/21bshwjt/AksBuildAgent.git
+# Change Directory path
+cd C:\aksbuildagent\AksBuildAgent
+# Login to Azure
+az login
+# Set to your Subscription
+az account set --subscription "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+```
+
 You can refer (Optional) [MSFT KB](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops) for the same.
 
 - Create an ACR.
