@@ -22,7 +22,7 @@ az acr build --registry <Your_ACR_Name> -t buildagent:v1.0 --platform windows .
 - Enable Admin User in ACR.
 
 Go to your ACR --> Access Keys --> Admin user (Enable that option; pls refer the below screenshot)
-<img src="https://github.com/21bshwjt/AksBuildAgent/blob/07125bd341ffb1e9b042ad389f39a50449f2c21d/ACR.png?raw=true" width="500" height="325">
+<img src="https://github.com/21bshwjt/AksBuildAgent/blob/ecebd07cab0cf75c88083d82e5b75aba868be2be/images/ACR.png?raw=true" width="500" height="325">
 
 - Create an Azure Container Instance.
 
