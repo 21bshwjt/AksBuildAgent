@@ -1,4 +1,4 @@
-# Azure DevOps Self Hosted Agents in Azure Kubernetes Service
+# Azure DevOps Self Hosted Agents
 
 ### Run Self-Hosted Windows Agent from Azure Container 
 
