@@ -76,3 +76,8 @@ steps:
 ```
 
 ### We have tested Windows Self-Hosted build agent into Azure Container but that can be done from local machine and AKS Cluster as well.  
+
+- Self-Hosted agent can be run from local machine where we need to have Docker install.
+- Self-Hosted agent can be run from Azure Container. 
+- Self-Hosted agent can be run from AKS cluster & recommended for production.  
+
