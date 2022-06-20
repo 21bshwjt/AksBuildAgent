@@ -74,4 +74,5 @@ steps:
 - template: storage_tag_containers01.yml@biswajit
 - template: storage_tag_containers02.yml@biswajit
 ```
+
 ### We have tested Windows Self-Hosted build agent into Azure Container but that can be done from local machine and AKS Cluster as well.  
