@@ -15,8 +15,6 @@ az login
 az account set --subscription "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 ```
 
-### Please refer [MSFT KB](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops) to run the image from local machine.
-
 - Create an ACR.
 ```powershell
 # Create a Resource Group
@@ -77,7 +75,7 @@ steps:
 
 ### We have tested Windows Self-Hosted build agent into Azure Container but that can be done from local machine and AKS Cluster as well.  
 
-- Self-Hosted agent can be run from local machine where we need to have Docker install.
+- Self-Hosted agent can be run from local machine where we need to have Docker install. Please refer [MSFT KB](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops) to run the image from local machine.
 - Self-Hosted agent can be run from Azure Container. 
 - Self-Hosted agent can be run from AKS cluster & recommended for production.  
 
