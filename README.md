@@ -4,6 +4,10 @@
 
 - Clone the Repo & login in Azure
 
+```diff
++ Dockerfile & start.ps1 taken from [MSFT KB](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops)
+```
+
 ```powershell
 # Clone the repo
 git clone https://github.com/21bshwjt/AksBuildAgent.git
