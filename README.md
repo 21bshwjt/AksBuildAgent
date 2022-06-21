@@ -1,5 +1,3 @@
-<img src="https://github.com/21bshwjt/AksBuildAgent/blob/caf692f38d1c4fce9034273fdba4ba008e065235/images/azpipe.png?raw=true" width="500" height="325">
-
 # Azure DevOps Self Hosted Agents
 
 ### Run Self-Hosted Windows Agent from Azure Container 
@@ -82,4 +80,6 @@ steps:
 - Self-Hosted agent can be run from local machine where we need to have Docker install. Please refer [MSFT KB](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops) to run the image from local machine.
 - Self-Hosted agent can be run from Azure Container. 
 - Self-Hosted agent can be run from AKS cluster & recommended for production.  
+
+<img src="https://github.com/21bshwjt/AksBuildAgent/blob/caf692f38d1c4fce9034273fdba4ba008e065235/images/azpipe.png?raw=true" width="500" height="325">
 
